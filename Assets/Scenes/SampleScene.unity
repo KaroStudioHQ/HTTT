@@ -414,11 +414,11 @@ RectTransform:
   m_Children:
   - {fileID: 1128470988}
   m_Father: {fileID: 1820954383}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 167}
+  m_AnchoredPosition: {x: 0, y: 137}
   m_SizeDelta: {x: 344.2202, y: 107.3255}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &463151899
@@ -527,7 +527,7 @@ GameObject:
   - component: {fileID: 510666669}
   - component: {fileID: 510666670}
   m_Layer: 5
-  m_Name: TenBenh
+  m_Name: ChanThuong
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -545,12 +545,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1820954383}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000030518, y: 56.174}
-  m_SizeDelta: {x: 745.4995, y: 112.35}
+  m_AnchoredPosition: {x: 0.000030518, y: -55.67031}
+  m_SizeDelta: {x: 1609.9507, y: 631.9606}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &510666669
 CanvasRenderer:
@@ -582,12 +582,12 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 40
-    m_FontStyle: 1
+    m_FontSize: 30
+    m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 4
+    m_MinSize: 3
     m_MaxSize: 40
-    m_Alignment: 4
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -1231,216 +1231,252 @@ MonoBehaviour:
     bieuHien: 0
     vanDong: 0
     camGiac: 0
+    moTa: 
   - name: "Bong g\xE2n c\u1ED5 tay"
     viTri: 0
     nguyenNhan: 1
     bieuHien: 0
     vanDong: 0
     camGiac: 1
+    moTa: 
   - name: "H\u1ED9i ch\u1EE9ng De Quervain"
     viTri: 0
     nguyenNhan: 2
     bieuHien: 0
     vanDong: 1
     camGiac: 2
+    moTa: 
   - name: "Vi\xEAm g\xE2n ECU"
     viTri: 0
     nguyenNhan: 2
     bieuHien: 0
     vanDong: 1
     camGiac: 3
-  - name: "vi\xEAm \u0111\u1EA7u d\xE0i g\xE2n 2 \u0111\u1EA7u"
+    moTa: 
+  - name: "Vi\xEAm \u0111\u1EA7u d\xE0i g\xE2n 2 \u0111\u1EA7u"
     viTri: 1
     nguyenNhan: 2
     bieuHien: 6
     vanDong: 2
     camGiac: 4
+    moTa: 
   - name: "Vi\xEAm l\u1ED3i c\u1EA7u ngo\xE0i x\u01B0\u01A1ng c\xE1nh tay "
     viTri: 1
     nguyenNhan: 2
     bieuHien: 0
     vanDong: 0
     camGiac: 3
+    moTa: 
   - name: "\u0110au g\xE2n khu\u1EF7u tay "
     viTri: 1
     nguyenNhan: 2
     bieuHien: 0
     vanDong: 0
     camGiac: 3
+    moTa: 
   - name: "Khu\u1EF7u tay qu\u1EA7n v\u1EE3t "
     viTri: 1
     nguyenNhan: 2
     bieuHien: 8
     vanDong: 4
     camGiac: 5
+    moTa: 
   - name: "Sai kh\u1EDBp vai "
     viTri: 2
     nguyenNhan: 0
     bieuHien: 5
     vanDong: 3
     camGiac: 3
+    moTa: 
   - name: "C\u0103ng c\u01A1 b\u1EAFp ch\xE2n "
     viTri: 3
     nguyenNhan: 3
     bieuHien: 0
     vanDong: 0
     camGiac: 1
+    moTa: 
   - name: "Vi\xEAm c\u01A1 b\u1EAFp ch\xE2n "
     viTri: 3
     nguyenNhan: 4
     bieuHien: 10
     vanDong: 0
     camGiac: 6
+    moTa: 
   - name: "Bong g\xE2n m\u1EAFt c\xE1 ch\xE2n "
     viTri: 4
     nguyenNhan: 1
     bieuHien: 3
     vanDong: 3
     camGiac: 6
+    moTa: 
   - name: "Ch\u1EA5n th\u01B0\u01A1ng c\u01A1 h\xE1ng "
     viTri: 5
     nguyenNhan: 3
     bieuHien: 0
     vanDong: 0
     camGiac: 7
+    moTa: 
   - name: "\u0110au b\xE1nh ch\xE8 - \u0111\xF9i "
     viTri: 0
     nguyenNhan: 0
     bieuHien: 0
     vanDong: 0
     camGiac: 0
+    moTa: 
   - name: "Vi\xEAm g\xE2n achilles "
     viTri: 0
     nguyenNhan: 0
     bieuHien: 0
     vanDong: 0
     camGiac: 0
+    moTa: 
   - name: "Ch\u1EA5n th\u01B0\u01A1ng d\xE2y ch\u1EB1ng ch\xE9o tr\u01B0\u1EDBc "
     viTri: 0
     nguyenNhan: 0
     bieuHien: 0
     vanDong: 0
     camGiac: 0
+    moTa: 
   - name: "Ch\u1EA5n th\u01B0\u01A1ng d\xE2y ch\u1EB1ng gi\u1EEFa g\u1ED1i "
     viTri: 0
     nguyenNhan: 0
     bieuHien: 0
     vanDong: 0
     camGiac: 0
+    moTa: 
   - name: "Ch\u1EA5n th\u01B0\u01A1ng d\xE2y ch\u1EB1ng ch\xE9o sau "
     viTri: 0
     nguyenNhan: 0
     bieuHien: 0
     vanDong: 0
     camGiac: 0
+    moTa: 
   - name: "Tr\u1EADt m\u1EAFt c\xE1 ch\xE2n "
     viTri: 0
     nguyenNhan: 0
     bieuHien: 0
     vanDong: 0
     camGiac: 0
+    moTa: 
   - name: "R\xE1ch s\u1EE5n ch\xEAm "
     viTri: 0
     nguyenNhan: 0
     bieuHien: 0
     vanDong: 0
     camGiac: 0
+    moTa: 
   - name: "Vi\xEAm g\xE2n ch\xF3p xoay "
     viTri: 0
     nguyenNhan: 0
     bieuHien: 0
     vanDong: 0
     camGiac: 0
+    moTa: 
   - name: "\u0110\u1EE9t g\xE2n Achilles "
     viTri: 0
     nguyenNhan: 0
     bieuHien: 0
     vanDong: 0
     camGiac: 0
+    moTa: 
   - name: "Vi\xEAm m\xE0ng c\u01A1 vu\xF4ng th\u1EAFt l\u01B0ng "
     viTri: 0
     nguyenNhan: 0
     bieuHien: 0
     vanDong: 0
     camGiac: 0
+    moTa: 
   - name: "Vi\xEAm t\xFAi thanh m\u1EA1c x\u01B0\u01A1ng tr\u1EE5 "
     viTri: 0
     nguyenNhan: 0
     bieuHien: 0
     vanDong: 0
     camGiac: 0
+    moTa: 
   - name: "T\u1ED5n th\u01B0\u01A1ng s\u1EE5n vi\u1EC1n kh\u1EDBp vai "
     viTri: 2
     nguyenNhan: 4
     bieuHien: 17
     vanDong: 0
     camGiac: 3
+    moTa: 
   - name: "H\u1ED9i ch\u1EE9ng Rotator "
     viTri: 2
     nguyenNhan: 2
     bieuHien: 10
     vanDong: 0
     camGiac: 9
+    moTa: 
   - name: "G\xE3y x\u01B0\u01A1ng \u0111\xF2n "
     viTri: 2
     nguyenNhan: 0
     bieuHien: 5
     vanDong: 0
     camGiac: 10
+    moTa: 
   - name: "M\u1EA5t v\u1EEFng kh\u1EDBp vai "
     viTri: 2
     nguyenNhan: 4
     bieuHien: 17
     vanDong: 0
     camGiac: 9
+    moTa: 
   - name: "H\u1ED9i ch\u1EE9ng b\u1EAFt ch\u1EB9n vai "
     viTri: 2
     nguyenNhan: 2
     bieuHien: 3
     vanDong: 0
     camGiac: 11
+    moTa: 
   - name: "Tr\u1EADt kh\u1EDBp g\u1ED1i "
     viTri: 6
     nguyenNhan: 0
     bieuHien: 13
     vanDong: 0
     camGiac: 12
+    moTa: 
   - name: "C\u0103ng c\u01A1 \u0111\u1EA7u g\u1ED1i "
     viTri: 6
     nguyenNhan: 0
     bieuHien: 5
     vanDong: 0
     camGiac: 6
+    moTa: 
   - name: "Vi\xEAm bao ho\u1EA1t d\u1ECBch \u0111\u1EA7u g\u1ED1i "
     viTri: 6
     nguyenNhan: 1
     bieuHien: 11
     vanDong: 0
     camGiac: 3
+    moTa: 
   - name: "R\u1EA1n x\u01B0\u01A1ng b\xE1nh ch\xE8 "
     viTri: 6
     nguyenNhan: 0
     bieuHien: 0
     vanDong: 0
     camGiac: 3
+    moTa: 
   - name: "R\u1EA1n x\u01B0\u01A1ng m\xE1c "
     viTri: 0
     nguyenNhan: 6
     bieuHien: 3
     vanDong: 3
     camGiac: 9
+    moTa: 
   - name: "Gi\xE3n d\xE2y ch\u1EB1ng th\u1EAFt l\u01B0ng "
     viTri: 8
     nguyenNhan: 6
     bieuHien: 1
     vanDong: 7
     camGiac: 1
+    moTa: 
   - name: "Tr\u01B0\u1EE3t \u0111\u1ED1t s\u1ED1ng th\u1EAFt l\u01B0ng "
     viTri: 8
     nguyenNhan: 0
     bieuHien: 18
     vanDong: 0
     camGiac: 9
+    moTa: 
   viTriList:
   - "C\u1ED5 tay"
   - "Khu\u1EF7u tay"
@@ -1460,30 +1496,27 @@ MonoBehaviour:
   - "Di chuy\u1EC3n \u0111\u1ED9t ng\u1ED9t b\u1EA5t th\u01B0\u1EDDng"
   - "Ho\u1EA1t \u0111\u1ED9ng sai t\u01B0 th\u1EBF"
   bieuHienList:
-  - "B\u1ECB s\u01B0ng t\u1EA5y"
-  - "Ph\xF9 n\u1EC1"
-  - "N\xF3ng quanh c\u1ED5 tay"
-  - "B\u1EA7m t\xEDm"
-  - "M\u1EC1m khi ch\u1EA1m v\xE0o"
-  - "Ph\xE1t ra ti\u1EBFng l\xE1ch c\xE1ch khi c\u1EED \u0111\u1ED9ng"
-  - "B\u1EAFp tay ph\u1ED3ng l\xEAn"
-  - "Bi\u1EBFn d\u1EA1ng khu v\u1EF1c quanh vai"
-  - "C\u0103ng c\u01A1"
-  - "R\xE1t v\xF9ng ngo\xE0i khu\u1EF7u tay"
-  - "Y\u1EBFu c\u01A1"
-  - "C\u1EA3m th\u1EA5y \u1EA5m h\u01A1n b\xECnh th\u01B0\u1EDDng"
-  - "B\u1EA7m t\xEDm ho\u1EB7c \u0111\u1ECF, nghe ti\u1EBFng \"ph\u1EE5t\" \u1EDF
-    b\u1EAFp ch\xE2n"
-  - "Bi\u1EBFn d\u1EA1ng kh\u1EDBp"
-  - "K\u1EB9t kh\u1EDBp khi c\u1EED \u0111\u1ED9ng"
-  - "Kh\xF4ng c\xF3 bi\u1EC3u hi\u1EC7n trong 2, 3 ng\xE0y sau \u0111\xF3 b\u1EA7m
-    t\xEDm"
-  - "Kh\xF4ng u\u1ED1n cong \u0111\u01B0\u1EE3c b\xE0n ch\xE2n"
-  - "Kh\u1EDBp vai l\u1ECFng l\u1EBBo"
-  - "C\u0103ng c\u1EE9ng"
+  - "B\u1ECB s\u01B0ng t\u1EA5y, ph\xF9 n\u1EC1, n\xF3ng quanh v\u1EBFt th\u01B0\u01A1ng"
+  - "B\u1ECB s\u01B0ng t\u1EA5y b\u1EA7m t\xEDm,n\xF3ng quanh v\u1EBFt th\u01B0\u01A1ng"
+  - "\xD0au, ph\xE1t ra ti\u1EBFng l\xE1ch c\xE1ch khi c\u1EED \u0111\u1ED9ng"
+  - "\xD0au, ng\u1EE9a, lan ra c\xE1c v\xF9ng xung quanh"
+  - "\xD0au d\u1ECDc b\xEAn trong v\u1EBFt th\u01B0\u01A1ng, m\u1EA5t kh\u1EA3 n\u0103ng
+    c\u1EA7m n\u1EAFm."
+  - "Bi\u1EBFn d\u1EA1ng, b\u1EA7m t\xEDm, ph\xE1t ra ti\u1EBFng l\xE1ch c\xE1ch
+    khi ho\u1EA1t \u0111\u1ED9ng"
+  - "C\u0103ng c\u01A1, r\xE1t t\u1EA1i v\xF9ng b\u1ECB th\u01B0\u01A1ng"
+  - "B\u1ECB s\u01B0ng t\u1EA5y, b\u1EA7m t\xEDm ho\u1EB7c \u0111\u1ECF"
+  - "Bi\u1EBFn d\u1EA1ng kh\u1EDBp,k\u1EB9t kh\u1EDBp khi c\u1EED \u0111\u1ED9ng"
+  - "S\u01B0ng t\u1EA5y, ph\xE1t ra ti\u1EBFng l\xE1ch c\xE1ch"
+  - "\u0110au nh\xF3i, c\xF3 ti\u1EBFng \u0111\u1EE9t khi x\u1EA3y ra ch\u1EA5n th\u01B0\u01A1ng"
+  - "\u0110au nh\u1EE9c s\xE2u k\xE9o d\xE0i"
+  - "L\u1ECFng l\u1EBBo, ph\xE1t ra ti\u1EBFng l\xE1ch c\xE1ch"
+  - "Y\u1EBFu c\u01A1, s\u01B0ng t\u1EA5y , ph\xF9 n\u1EC1"
+  - "\u0110au, s\u01B0ng, ph\xE1t ra ti\u1EBFng l\xE1ch c\xE1ch"
+  - "\u0110au, bi\u1EBFn d\u1EA1ng, b\u1EA7m t\xEDm ho\u1EB7c m\u1EA5t c\u01A1 n\u0103ng"
   vanDongList:
   - "G\u1EB7p kh\xF3 kh\u0103n trong v\u1EADn \u0111\u1ED9ng"
-  - "G\u1EB7p kh\xF3 kh\u0103n trong c\u1EED \u0111\u1ED9ng g\u1ED1c m\xF3ng tay"
+  - "G\u1EB7p kh\xF3 kh\u0103n trong c\u1EED \u0111\u1ED9ng g\u1ED1c ng\xF3n tay"
   - "Gi\u1EA3m kh\u1EA3 n\u0103ng v\u1EADn \u0111\u1ED9ng"
   - "Kh\xF4ng di chuy\u1EC3n c\u1EED \u0111\u1ED9ng \u0111\u01B0\u1EE3c"
   - "M\u1EA5t d\u1EA7n s\u1EE9c n\u1EAFm"
@@ -1504,7 +1537,7 @@ MonoBehaviour:
   - "\u0110au khu tr\xFA"
   - "\u0110au nhi\u1EC1u v\u1EC1 \u0111\xEAm d\u1EABn \u0111\u1EBFn m\u1EA5t ng\u1EE7"
   - "\u0110au d\u1EEF d\u1ED9i khi ho\u1EA1t \u0111\u1ED9ng"
-  tsVitri: 4
+  tsVitri: 10
   tsNguyenNhan: 3
   tsBieuHien: 3
   tsVanDong: 2
@@ -1691,7 +1724,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 928356865}
         m_TargetAssemblyTypeName: Manager, Assembly-CSharp
-        m_MethodName: Show
+        m_MethodName: Skip
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2405,9 +2438,9 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 463151898}
   - {fileID: 1992974001}
   - {fileID: 510666668}
+  - {fileID: 463151898}
   m_Father: {fileID: 1509333342}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2766,11 +2799,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1820954383}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -130, y: 209}
+  m_AnchoredPosition: {x: -526.11, y: 320}
   m_SizeDelta: {x: 557.7395, y: 119.3843}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1992974002
@@ -2800,7 +2833,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 54
-    m_Alignment: 6
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0

@@ -12,7 +12,7 @@ public class Manager : MonoBehaviour
 	public List<string> vanDongList;
 	public List<string> camGiacList;
 
-	public int tsVitri = 4, tsNguyenNhan = 3, tsBieuHien = 3, tsVanDong = 2, tsCamGiac = 1;
+	public int tsVitri = 10, tsNguyenNhan = 3, tsBieuHien = 3, tsVanDong = 2, tsCamGiac = 1;
 
 	int viTri, nguyenNhan, bieuHien, vanDong, camGiac;
 
@@ -24,11 +24,14 @@ public class Manager : MonoBehaviour
 
     private void Start()
     {
+		SaveSystem.Init();
 		viTri = nguyenNhan = bieuHien = vanDong = camGiac = -1;
+		Load();
 		Show();
 	}
 
-	public void Show()
+
+    public void Show()
     {
 		dropdown.options.Clear();
 		switch (index)
@@ -61,6 +64,35 @@ public class Manager : MonoBehaviour
 		dropdown.value = 0;
 		index++;
     }
+
+	public void Skip()
+	{
+		dropdown.options.Clear();
+		switch (index)
+		{
+			case 0:
+				ShowViTriChanThuong();
+				break;
+			case 1:
+				ShowNguyenNhan();
+				break;
+			case 2:
+				ShowVanDong();
+				break;
+			case 3:
+				ShowCamGiac();
+				break;
+			case 4:
+				ShowBieuHien();
+				break;
+			case 5:
+				ShowResult();
+				break;
+		}
+		dropdown.RefreshShownValue();
+		dropdown.value = 0;
+		index++;
+	}
 
 	void ShowViTriChanThuong()
     {
@@ -106,14 +138,19 @@ public class Manager : MonoBehaviour
 
 	void ShowResult()
     {
+		resultTxt.text = "";
 		resultPanel.SetActive(true);
-		resultTxt.text = GetResult();
+		List<ChanThuong> result = GetResult();
+        for (int i = 0; i < result.Count; i++)
+        {
+			resultTxt.text += "<size=40><b>"+result[i].name+"</b></size>" + "\n" + "Lời khuyên: " + result[i].moTa + "\n";
+		}
     }
 
-	string GetResult()
+	List<ChanThuong> GetResult()
     {
 		int tongTs = tsVitri + tsNguyenNhan + tsVanDong + tsCamGiac  + tsBieuHien;
-		string tenBenh = "";
+		List<ChanThuong> chanThuong = new List<ChanThuong>();
 		float max = 0;
         for (int i = 0; i < chanThuongList.Count; i++)
         {
@@ -128,10 +165,16 @@ public class Manager : MonoBehaviour
             if (max < s)
             {
 				max = s;
-				tenBenh = chanThuongList[i].name;
+				chanThuong.Clear();
+				chanThuong.Add(chanThuongList[i]);
 			}
+            else if (max == s)
+            {
+				chanThuong.Add(chanThuongList[i]);
+			}
+			Debug.Log(chanThuongList[i].name + ": " + s);
 		}
-		return tenBenh;
+		return chanThuong;
     }
 
 	public void Restart()
@@ -141,6 +184,25 @@ public class Manager : MonoBehaviour
 		resultPanel.SetActive(false);
 		Show();
 	}
+
+	void Save()
+    {
+		ChanThuongData data = new ChanThuongData
+		{
+			chanThuongList = chanThuongList
+        };
+		string json = JsonUtility.ToJson(data, true);
+		SaveSystem.Save(json);
+    }
+	void Load()
+    {
+		string saveString = SaveSystem.Load();
+        if (saveString != null)
+        {
+			ChanThuongData data = JsonUtility.FromJson<ChanThuongData>(saveString);
+			chanThuongList = data.chanThuongList;
+        }
+    }
 }
 
 [System.Serializable]
@@ -148,5 +210,11 @@ public class ChanThuong
 {
 	public string name;
 	public int viTri, nguyenNhan, bieuHien, vanDong, camGiac;
+	public string moTa;
+}
+
+public class ChanThuongData
+{
+	public List<ChanThuong> chanThuongList;
 }
 

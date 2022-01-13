@@ -1,0 +1,328 @@
+{
+    "chanThuongList": [
+        {
+            "name": "Trật khớp cổ tay",
+            "viTri": 0,
+            "nguyenNhan": 0,
+            "bieuHien": 0,
+            "vanDong": 0,
+            "camGiac": 0,
+            "moTa": "Cho người bệnh dừng lại mọi hoạt động, không di chuyển bệnh nhân đi chỗ khác; Sử dụng chườm đá thật nhẹ nhàng lên chỗ bị trật khớp để giúp giảm đau cho người bệnh. Tuy nhiên không sử dụng đá lạnh chườm trực tiếp vào vết thương mà cần quấn qua lớp khăn tránh hiện tượng bỏng lạnh; Không tự ý nắn khớp bị trật về vị trí ban đầu nếu người sơ cứu không có chuyên môn y học; Giữ nguyên vết thương bằng cách sử dụng gạc hoặc vải để buộc lại; Nhanh chóng đưa người bệnh đến cơ sở khám chữa bệnh gần nhất để được thăm khám và can thiệp đúng cách."
+        },
+        {
+            "name": "Bong gân cổ tay",
+            "viTri": 0,
+            "nguyenNhan": 1,
+            "bieuHien": 1,
+            "vanDong": 0,
+            "camGiac": 1,
+            "moTa": "Ngoài việc điều trị bằng cách chườm đá, nghỉ ngơi và dùng thuốc giảm đau không kê đơn, bác sĩ có thể khuyến nghị nên đeo nẹp để giúp cố định khớp. Tuy nhiên, nếu các triệu chứng của một người không cải thiện trong vòng khoảng 6 tuần, nên đi khám lại với bác sĩ để đánh giá lại tình trạng ở cổ tay cũng như thực hiện các liệu pháp bổ sung, chẳng hạn như phẫu thuật."
+        },
+        {
+            "name": "Hội chứng De Quervain",
+            "viTri": 0,
+            "nguyenNhan": 2,
+            "bieuHien": 7,
+            "vanDong": 1,
+            "camGiac": 2,
+            "moTa": "Điều trị không dùng thuốc: giảm hoặc ngừng vận động cổ tay và ngón cái, dùng băng nẹp cổ tay và ngón cái ở vị trí ngón cái dạng 45 độ so với trục xương quay và gấp 10 độ, chườm lạnh; Các phương pháp vật lý trị liệu như: siêu âm, nhúng sáp Parafin, Laser,  có hiệu quả giúp làm giảm hiện tượng viêm ở bao gân."
+        },
+        {
+            "name": "Viêm gân ECU",
+            "viTri": 0,
+            "nguyenNhan": 2,
+            "bieuHien": 2,
+            "vanDong": 1,
+            "camGiac": 3,
+            "moTa": "Nghỉ ngơi hoặc cố định, chườm nóng hoặc lạnh, sau đó tập thể dục; NSAIDs liều cao; Đôi khi tiêm corticosteroid."
+        },
+        {
+            "name": "Viêm đầu dài gân 2 đầu",
+            "viTri": 1,
+            "nguyenNhan": 1,
+            "bieuHien": 6,
+            "vanDong": 2,
+            "camGiac": 4,
+            "moTa": "Nghỉ ngơi, quay lại vận động vai tăng dần, thuốc giảm đau, chống viêm. Có thể mặc áo đai cố định vai để bất động tạm thời khớp. Sau đó tập vật lý trị liệu giúp phục hồi chức năng lấy lại tầm vận động khớp và sức cơ. Kết hợp với tiêm corticoid có thể giúp giảm đau nhanh ở một số bệnh nhân phù hợp. Tuy nhiên, một số trường hợp nặng cần phải được chỉ định phẫu thuật."
+        },
+        {
+            "name": "Viêm lồi cầu ngoài xương cánh tay ",
+            "viTri": 1,
+            "nguyenNhan": 2,
+            "bieuHien": 3,
+            "vanDong": 0,
+            "camGiac": 3,
+            "moTa": "Chườm lạnh ở vùng tổn thương để giảm đau. Chườm lạnh trong vòng khoảng 10-15 phút, lặp lại nhiều lần trong ngày có hiệu quả trong việc giảm đau. Không nên sử dụng các loại dầu nóng hay thuốc để tự xoa bóp, nắn chỉnh vì có thể gây viêm kéo dài, rất khó để điều trị. Mang các băng hỗ trợ cẳng tay trong lao động để làm giảm sự căng kéo các cơ duỗi ở khớp khuỷu."
+        },
+        {
+            "name": "Đau gân khuỷu tay ",
+            "viTri": 1,
+            "nguyenNhan": 2,
+            "bieuHien": 4,
+            "vanDong": 0,
+            "camGiac": 3,
+            "moTa": "Thường cải thiện nhiều với: nghỉ ngơi (tránh các động tác gây đau), chườm đá, thuốc kháng viêm giảm đau, nếu trường hợp viêm nặng có thể tiêm tại chỗ Cortisone. Dùng băng thun quấn quanh vùng dưới khớp khuỷu. Tập luyện kéo giãn cơ. Bệnh nhân thường đau hoặc rát trên phần ngoài khuỷu tay, sức cầm nắm yếu."
+        },
+        {
+            "name": "Khuỷu tay quần vợt ",
+            "viTri": 1,
+            "nguyenNhan": 2,
+            "bieuHien": 6,
+            "vanDong": 4,
+            "camGiac": 5,
+            "moTa": "Thường cải thiện nhiều với: nghỉ ngơi (tránh các động tác gây đau), chườm đá, thuốc kháng viêm giảm đau, nếu trường hợp viêm nặng có thể tiêm tại chỗ Cortisone. Dùng băng thun quấn quanh vùng dưới khớp khuỷu. Tập luyện kéo giãn cơ. Bệnh nhân thường đau hoặc rát trên phần ngoài khuỷu tay, sức cầm nắm yếu."
+        },
+        {
+            "name": "Sai khớp vai ",
+            "viTri": 2,
+            "nguyenNhan": 0,
+            "bieuHien": 5,
+            "vanDong": 3,
+            "camGiac": 3,
+            "moTa": "Nắn lại vai: Đây là cách chữa trật khớp vai phổ biến khi trật khớp mới và mức độ nhẹ, bác sĩ có thể nắn lại vai bị trật bằng một số thao tác nhẹ để giúp xương vai trở lại vị trí đúng. Phẫu thuật: Bạn có thể sẽ phải làm phẫu thuật nếu khớp vai hoặc dây chằng yếu, có yếu tố mắc lại dù đã phục hồi và tăng cường chức năng."
+        },
+        {
+            "name": "Căng cơ bắp chân ",
+            "viTri": 3,
+            "nguyenNhan": 3,
+            "bieuHien": 7,
+            "vanDong": 0,
+            "camGiac": 1,
+            "moTa": "Nghỉ ngơi, kéo căng cơ bắp chân, chườm đá, áp nhiệt, thuốc chống viêm, vật lí trị liệu"
+        },
+        {
+            "name": "Viêm cơ bắp chân ",
+            "viTri": 3,
+            "nguyenNhan": 4,
+            "bieuHien": 0,
+            "vanDong": 0,
+            "camGiac": 6,
+            "moTa": "Thường xuyên đấm bóp, massage cơ bắp chân là những cách có lợi cho tĩnh mạch. Phải thường xuyên tập thể dục đi bộ, các bác sĩ khuyên người bệnh thường xuyên nên đi bộ tốt cho sức khỏe và chứng đau viêm cơ bắp chân. Điều chỉnh chế độ dinh dưỡng nên bổ sung cung cấp các loại thực phẩm giàu chất xơ, protein, vitamin E, các khoáng chất như canxi, magie,… vào thực đơn dinh dưỡng ăn uống hàng ngày."
+        },
+        {
+            "name": "Bong gân mắt cá chân ",
+            "viTri": 4,
+            "nguyenNhan": 1,
+            "bieuHien": 7,
+            "vanDong": 3,
+            "camGiac": 6,
+            "moTa": "Hạn chế đi lại hay di chuyển chân, có thể dùng nạng để không tác động lên vùng bị thương trong 48 giờ; Chườm đá lên vùng bị sưng khoảng 20 – 30 phút và chườm liên tục trong 48 giờ, tránh không để nước đá tiếp xúc với vùng bị thương vì có thể gây bỏng lạnh."
+        },
+        {
+            "name": "Chấn thương cơ háng ",
+            "viTri": 5,
+            "nguyenNhan": 3,
+            "bieuHien": 7,
+            "vanDong": 0,
+            "camGiac": 7,
+            "moTa": "Đối với tình trạng nhẹ, người bệnh có thể thực hiện những phương pháp để cải thiện tình trạng như chườm nước đá, nén và sử dụng thuốc chống viêm không steroid (được bác sĩ chỉ định sử dụng cho một số người bệnh). Tùy thuộc vào mức độ nghiêm trọng của tình trạng, người bệnh có thể cần điều trị bổ sung để tăng tốc độ chữa bệnh. Chúng có thể bao gồm: Vật lý trị liệu, Liệu pháp xoa bóp, Nhiệt trị liệu."
+        },
+        {
+            "name": "Đau bánh chè - đùi ",
+            "viTri": 6,
+            "nguyenNhan": 2,
+            "bieuHien": 2,
+            "vanDong": 5,
+            "camGiac": 1,
+            "moTa": "Các bài tập phục hồi chức năng: Các bài tập cụ thể có thể tăng cường các cơ hỗ trợ đầu gối và kiểm soát sự liên kết giữa các chi. Nẹp hỗ trợ: Nẹp đầu gối hoặc hỗ trợ vòm có thể giúp cải thiện cơn đau. Băng chặt đầu gối: Chuyên gia vật lý trị liệu có thể hướng dẫn cách băng đầu gối để giảm đau và tăng cường khả năng vận động. Chườm lạnh: Chườm lạnh đầu gối sau khi tập thể dục có thể giúp giảm cơn đau."
+        },
+        {
+            "name": "Viêm gân achilles ",
+            "viTri": 4,
+            "nguyenNhan": 2,
+            "bieuHien": 1,
+            "vanDong": 0,
+            "camGiac": 6,
+            "moTa": "Nghỉ ngơi: Bước đầu tiên để giảm đau đó là giảm hoặc ngưng các vận động làm trầm trọng hơn triệu chứng đau. Chườm đá: Chườm đá lạnh lên vùng gân sưng đau là hữu ích và có thể làm vào bất kỳ thời điểm nào trong ngày nếu cần thiết. Thuốc kháng viêm NSAID"
+        },
+        {
+            "name": "Chấn thương dây chằng chéo trước ",
+            "viTri": 6,
+            "nguyenNhan": 0,
+            "bieuHien": 5,
+            "vanDong": 3,
+            "camGiac": 7,
+            "moTa": "Nghỉ ngơi để hạn chế đề nặng lên đầu gối. Chườm túi nước đá ở đầu gối ít nhất hai giờ một lần và mỗi lần là 20 phút. Quấn miếng băng thun quanh đầu gối. Kê cao đầu gối bằng cách đặt gối hoặc chăn dưới đầu gối bị chấn thương. Phục hồi chức năng."
+        },
+        {
+            "name": "Chấn thương dây chằng giữa gối ",
+            "viTri": 6,
+            "nguyenNhan": 0,
+            "bieuHien": 5,
+            "vanDong": 0,
+            "camGiac": 6,
+            "moTa": "Chườm đá lên vùng bị tổn thương để giảm đau và viêm. Hạn chế hoạt động thể chất cho đến khi tình trạng đau và sưng thuyên giảm. Dùng các loại thuốc kháng viêm không phải steroid để giảm đau và viêm. Nâng đầu gối cao hơn tim để giảm sưng. Cho chân nghỉ ngơi để giảm sưng."
+        },
+        {
+            "name": "Chấn thương dây chằng chéo sau ",
+            "viTri": 6,
+            "nguyenNhan": 0,
+            "bieuHien": 8,
+            "vanDong": 6,
+            "camGiac": 7,
+            "moTa": "Thuốc giảm đau không kê đơn, chẳng hạn như ibuprofen hoặc naproxen natri có thể giúp giảm đau và giảm sưng. Vật lí trị liệu. "
+        },
+        {
+            "name": "Trật mắt cá chân ",
+            "viTri": 4,
+            "nguyenNhan": 1,
+            "bieuHien": 7,
+            "vanDong": 0,
+            "camGiac": 6,
+            "moTa": "Nghỉ ngơi: Nghỉ ngơi tại giường. Chườm đá lạnh: Bạn áp đá vào mắt cá bị thương để giảm sưng và đau. Đè ép: Sau khi sưng biến mất, bạn có thể sử dụng nẹp hoặc băng để giúp giữ cho mắt cá ổn định và hỗ trợ cho mắt cá bị thương."
+        },
+        {
+            "name": "Rách sụn chêm ",
+            "viTri": 6,
+            "nguyenNhan": 5,
+            "bieuHien": 7,
+            "vanDong": 3,
+            "camGiac": 8,
+            "moTa": "Không phẫu thuật: Đối với những trường hợp rách nhỏ, tình trạng nhẹ, không gây đau và ít ảnh hưởng tới vận động, có thể sử dụng các loại thuốc chống viêm, thuốc giảm phù nề... kết hợp với việc chườm đá, băng chun gối, nghỉ ngơi và hạn chế vận động. Phẫu thuật: Điều trị sụn chêm bằng phẫu thuật có thể là cắt toàn bộ sụn chêm, cắt một phần sụn chêm hoặc khâu sụn chêm."
+        },
+        {
+            "name": "Viêm gân chóp xoay ",
+            "viTri": 2,
+            "nguyenNhan": 0,
+            "bieuHien": 9,
+            "vanDong": 7,
+            "camGiac": 6,
+            "moTa": "Điều trị không can thiệp phẫu thuật: nghỉ ngơi, sử dụng thuốc giảm đau, vật lí trị liệu. Điều trị phẫu thuật: nội soi khớp vai, mổ hở khớp vai."
+        },
+        {
+            "name": "Đứt gân Achilles ",
+            "viTri": 7,
+            "nguyenNhan": 0,
+            "bieuHien": 10,
+            "vanDong": 0,
+            "camGiac": 9,
+            "moTa": "Đi lại không tì lực với nạng; Chườm lạnh lên vùng bị chấn thương; Sử dụng thuốc giảm đau; Hạn chế cử động cổ chân trong 3 – 4 tuần đầu tiên. Bệnh nhân có thể tập đi bằng giày có đệm gót hoặc bó bột, với bàn chân gập về phía gan chân theo chỉ định của bác sĩ."
+        },
+        {
+            "name": "Viêm màng cơ vuông thắt lưng ",
+            "viTri": 8,
+            "nguyenNhan": 6,
+            "bieuHien": 11,
+            "vanDong": 0,
+            "camGiac": 9,
+            "moTa": "Bấm huyệt, giác hơi, châm cứu, chiếu đèn hồng ngoại, chườm nóng, chườm lạnh."
+        },
+        {
+            "name": "Viêm túi thanh mạc xương trụ ",
+            "viTri": 7,
+            "nguyenNhan": 4,
+            "bieuHien": 0,
+            "vanDong": 0,
+            "camGiac": 9,
+            "moTa": "Thông thường với bệnh lý này giai đoạn đầu mục tiêu điều trị là giúp bệnh nhân giảm đau, giảm viêm, giảm các triệu chứng khó chịu. Sau đó sẽ tiến hành giải quyết triệt nguyên nhân gây bệnh, phục hồi để bệnh nhân lấy lại sức cơ và khả năng vận động bình thường. Cuối cùng là giải pháp tăng cường chất lượng cơ xương khớp để bệnh nhân không bị tái phát bệnh."
+        },
+        {
+            "name": "Tổn thương sụn viền khớp vai ",
+            "viTri": 2,
+            "nguyenNhan": 4,
+            "bieuHien": 12,
+            "vanDong": 0,
+            "camGiac": 3,
+            "moTa": "Hầu hết được điều trị nội khoa, tập vật lý trị liệu. Tuy nhiên, nếu rách lớn hay bệnh nhân không đáp ứng với điều trị nội khoa thì vấn đề phẫu thuật khâu phục hồi sụn viền được đặt ra. "
+        },
+        {
+            "name": "Hội chứng Rotator ",
+            "viTri": 2,
+            "nguyenNhan": 2,
+            "bieuHien": 13,
+            "vanDong": 0,
+            "camGiac": 9,
+            "moTa": "Tiêm thuốc: Nếu các phương pháp điều trị bảo tồn không làm giảm cơn đau, bác sĩ có thể đề nghị tiêm steroid vào khớp vai. Vật lí trị liệu: Vật lý trị liệu thường là một trong những phương pháp điều trị đầu tiên mà bác sĩ có thể đề nghị."
+        },
+        {
+            "name": "Gãy xương đòn ",
+            "viTri": 2,
+            "nguyenNhan": 0,
+            "bieuHien": 5,
+            "vanDong": 0,
+            "camGiac": 10,
+            "moTa": "Phần lớn các trường hợp gãy xương đòn được chỉ định điều trị bảo tồn, không phẫu thuật. Hầu hết bệnh nhân đều đạt được kết quả tốt khi điều trị bảo tồn với loại gãy 1/3 giữa xương đòn không hoặc ít di lệch."
+        },
+        {
+            "name": "Mất vững khớp vai ",
+            "viTri": 2,
+            "nguyenNhan": 4,
+            "bieuHien": 12,
+            "vanDong": 0,
+            "camGiac": 9,
+            "moTa": "Chườm lạnh lên vùng khớp vai nhiều lần trong ngày để giảm sưng và đau; Thuốc kháng viên không steroid; Vật lí trị liệu hồi phục chức năng khớp vai"
+        },
+        {
+            "name": "Hội chứng bắt chẹn vai ",
+            "viTri": 2,
+            "nguyenNhan": 2,
+            "bieuHien": 7,
+            "vanDong": 0,
+            "camGiac": 11,
+            "moTa": "Giai đoạn đầu sẽ là điều trị giảm đau là kháng viêm. Khi đã áp dụng các biện pháp trên nhưng không mang lại hiệu quả, bác sĩ sẽ tiêm steroid trực tiếp vào khoang dưới mỏm cùng. Phẫu thuật được chỉ định khi không có cải thiện nào sau 6 tháng đến 1 năm điều trị bảo tồn"
+        },
+        {
+            "name": "Trật khớp gối ",
+            "viTri": 6,
+            "nguyenNhan": 0,
+            "bieuHien": 5,
+            "vanDong": 0,
+            "camGiac": 12,
+            "moTa": "Điều trị không phẫu thuật: Với phương pháp này, bác sĩ cần đảm bảo xương bánh chè nằm ở đúng vị trí. Vì vậy, bác sĩ cần thực hiện di chuyển xương bánh chè về đúng vị trí ban đầu. Phương pháp điều trị phẫu thuật: Phương pháp điều trị phẫu thuật được áp dụng với hầu hết người bệnh bị trật khớp đầu gối nhằm tránh các tổn thương liên quan"
+        },
+        {
+            "name": "Căng cơ đầu gối ",
+            "viTri": 6,
+            "nguyenNhan": 0,
+            "bieuHien": 14,
+            "vanDong": 0,
+            "camGiac": 6,
+            "moTa": "Thuốc giảm đau hạ sốt chống viêm không steroid: NSAIDs Ibuprofen, Aleve, Steroid Corticoid,… Thuốc ức chế chọn lọc COX-2: etoricoxib, parecoxib, rofecoxib, valdecoxib, lumiracoxib…"
+        },
+        {
+            "name": "Viêm bao hoạt dịch đầu gối ",
+            "viTri": 6,
+            "nguyenNhan": 1,
+            "bieuHien": 13,
+            "vanDong": 0,
+            "camGiac": 3,
+            "moTa": "Tiêm corticosteroid. Nếu viêm bao hoạt dịch kéo dài và không đáp ứng với những phương pháp điều trị cơ bản; Chọc hút dịch (aspiration). Bác sĩ có thể sử dụng một cây kim nhỏ đưa vào bao hoạt dịch để hút bớt lượng dịch dư thừa và điều trị viêm."
+        },
+        {
+            "name": "Rạn xương bánh chè ",
+            "viTri": 6,
+            "nguyenNhan": 0,
+            "bieuHien": 5,
+            "vanDong": 0,
+            "camGiac": 3,
+            "moTa": "Cần sơ cứu, dùng thuốc giảm đau, cố định tạm thời bằng nẹp gỗ và tiến hành điều trị. - Điều trị bảo tồn: Bó bột là phương pháp điều trị bảo tồn khi vỡ xương bánh chè ở trường hợp nhẹ, di lệch giãn cách dưới 3mm và chênh diện khớp mặt sau xương bánh chè dưới 1mm hoặc gãy rạn xương bánh chè. Điều trị phẫu thuật: Phẫu thuật vỡ xương bánh chè khi hở xương bánh chè, di lệch lớn hơn mức cho phép điều trị bảo tồn, khớp giả xương bánh chè. "
+        },
+        {
+            "name": "Rạn xương mác ",
+            "viTri": 0,
+            "nguyenNhan": 6,
+            "bieuHien": 15,
+            "vanDong": 3,
+            "camGiac": 9,
+            "moTa": "Điều trị bảo tồn:  Bó bột từ 1/3 trên đùi tới bàn chân; Có thể phải điều trị phẫu thuật"
+        },
+        {
+            "name": "Giãn dây chằng thắt lưng ",
+            "viTri": 8,
+            "nguyenNhan": 6,
+            "bieuHien": 0,
+            "vanDong": 7,
+            "camGiac": 1,
+            "moTa": "Nghỉ ngơi khi bị đau thắt lưng. Chườm lạnh Không nên chườm nóng khi bị giãn dây chằng vì sẽ khiến cơ và dây chằng căng thêm, khó co trở lại vị trí cũ. Tập Yoga Những động tác của bài tập yoga có tác dụng tăng độ dẻo dai. Xoa bóp/ massage Người bệnh cũng nên kết hợp với phương pháp xoa bóp, massage hai bên cột sống khoảng 30 phút/lần theo y học cổ truyền để giúp giảm đau."
+        },
+        {
+            "name": "Trượt đốt sống thắt lưng ",
+            "viTri": 8,
+            "nguyenNhan": 0,
+            "bieuHien": 15,
+            "vanDong": 0,
+            "camGiac": 9,
+            "moTa": "Điều trị nội khoa: Phần lớn bệnh nhân trượt đốt sống lưng được điều trị nội khoa sẽ cải thiện rõ rệt các cơn đau. Phẫu thuật:  Áp dụng với bệnh nhân trượt đốt sống đã được điều trị bảo tồn ít nhất 6 tuần trước và thường sau 6 – 12 tháng điều trị bảo tồn mà hiệu quả."
+        }
+    ]
+}
